@@ -39,6 +39,23 @@ main {
   font-size: 20px;
 }
 
+main img {
+  width: 400px;
+}
+
+main a {
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+
+main a:hover {
+  font-size: 35px;
+  text-decoration: none;
+  opacity: 50%;
+  transition: 1s;
+}
+
 footer {
     background-color: #f2f2f2;
     padding: 10px;
